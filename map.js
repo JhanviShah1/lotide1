@@ -32,6 +32,12 @@ const map = function(array, callback) {
   }
   return results;
 };
+/*const ins = function(word) {
+  word = word[0];
+  return word;
+};
+const results1 = map(words,ins);
+console.log(results1);*/
 const results1 = map(words,word=> word[0]);
 console.log(results1);
-assertArraysEqual(map(words,word=> word[0]),['g','c','t','m','t']);
+assertArraysEqual(results1,['g','c','t','m','t']);
