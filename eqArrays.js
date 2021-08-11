@@ -1,7 +1,7 @@
 const assertEqual = require('./assertEqual');
 
 const eqArrays = function(arr1, arr2) {
-  console.log(arr1,arr2);
+  //console.log(arr1,arr2);
   if (arr1 === arr2) {
     return true;
   }
