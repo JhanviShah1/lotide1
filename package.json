@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@mynpm1/lotide1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide is a mini library like lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JhanviShah1/lotide1.git"
   },
-  "author": "",
+  "author": "Jhanvi Shah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JhanviShah1/lotide1/issues"

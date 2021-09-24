@@ -1,12 +1,5 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-const result = {};
 const countLetters = function(sentence) {
+  const result = {};
   for (let char of sentence) {
     if (char === ' ') {
       continue;
@@ -19,6 +12,5 @@ const countLetters = function(sentence) {
   }
   return result;
 };
-//console.log(countLetters('Lighthouse labs'));
-const words = countLetters('Hello World');
-assertEqual(words["o"],2);
+
+module.exports = countLetters;
